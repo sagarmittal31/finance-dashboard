@@ -1,0 +1,13 @@
+# Raw financial data — never commit
+data/*.xlsx
+data/*.csv
+data/*.xls
+data/*.docx
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store
